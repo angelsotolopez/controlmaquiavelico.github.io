@@ -1,0 +1,210 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> 
+	<title>FESTIVAL CONTROL MAQUIAVELICO</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/control maquiavelico-02.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">MUSEO LOUVRE</a>
+          <a href="#secc2">AUTORES</a>
+          <a href="#secc3">LIBROS</a>
+          <a href="#secc4">PROYECCIONES AUDIOVISUALES</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>MUSEO LOUVRE</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Museo Louvre esta ubicado en pleno centro de París, cuenta con 35, 000 objetos que abarcan desde la Prehistoria has el Siglo XXI, en su 60.600 m2 al interior del Palacio Louvre, el cual era una antigua fortaleza que fue construida por el rey Felipe II a finales del siglo XII.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Este icónico lugar parisino fue un lugar de exposición de colección de arte de la realeza durante el reinado de Luis XIV, y en 1692 el edificio fue ocupado por la Academia de las Inscripciones y las Bellas Artes de la Academia Real de Pintura y Escultura, organismo que llevó a cabo la primera exposición en 1699.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>El Louvre tiene una larga historia, abrió sus puertas a la nación en 1793, desde entonces su colección de obras incremento en los tiempos de Napoleón, y esta expansión siguió durante los reinados de Luis XVII y Carlos X, consiguiendo albergar hasta 20, 000 obras en esa época.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>El Louvre esta dividido en 8 departamentos: Antigüedades Griegas, Romanas y Etruscas, Antigüedades de Oriente Próximo, Antigüedades de Egipto, Pinturas, Grabados y Dibujos, Escultura, Artes Decorativas y Arte Islámico.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/Museo Louvre.png" title="Img 1a">
+	        		<a href="https://tidy-wobbly-challenge.glitch.me">
+	      	<img src="imagenes/360.png" title="AUTORES">
+	      </a>
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>Sede Oficial del Festival Control Maquiavelico</p>
+	        		<!--texto para imagen a la derecha-->
+	        		<p>Visita las afueras del Louvre.</p>
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/Museo Louvre.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>Sede Oficial del Festival Control Maquiavelico</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<a href="https://tidy-wobbly-challenge.glitch.me">
+	      	<img src="imagenes/360.png" title="AUTORES">
+	      </a>
+	        		<!--texto para la imagen-->
+	        		<p>Visita las afueras del Louvre.</p>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>AUTORES</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El Festival Control Maquiavélico es un espacio de difusión cultural e histórica en donde se descubrirán secretos ocultos a través de la historia sobre hechos que han marcado a la humanidad pero que pocas veces son presentados abiertamente al público; estos temas serán abordados por distintos ponentes autores de diversos libros y trabajos de investigación para darle voz a estos secretos, entre ellos tenemos la participación de Jorgue Guerra, Antony C. Sutton, Marcelo Gullo y Juan Manuel Zunzunegui.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Conferencias magistrales que nos harán cuestionar lo que sabemos hasta ahora de la Historial Universal como la conocemos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<a href="https://youtube.com/playlist?list=PLrqaJjs2QtSF68TmWBGRLEgyGcVnvmhjk&si=P9dnChQmc3CbPthB">
+	      	<img src="imagenes/button.png" title="AUTORES">
+	      </a>
+        		<!--texto para la imagen-->
+        		<p>Da click aqui para conocer más sobre los autores</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>LIBROS</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El pasado nos cuenta lo que sucedió y como los hechos nos han llevado hacia el presente actual que narramos conforme las experiencias anteriores, pero ¿será posible predecir el futuro? ¿Cómo serán las sociedades con base en lo vivido, lo presente y lo que nos espera? </p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Este cuestionamiento busca respuestas en la literatura de ciencia ficción, las cuales se encuentran narradas en dos libros que nos muestran futuros distópicos de sociedades perfectas que se están organizadas con base al control total de sus ciudadanos, donde no cabe lugar a la libertad como concepto, una libertad controlada y mesurada por gobiernos totalitarios bajo el amable y falso rostro de “democracia.”</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>“1984” de George Orwell y “Un Mundo Feliz” de Aldoux Huxley nos presentan en sus obras literarias dos mundos futuristas y distópicos que nos narran regímenes que controlan la información, el pensamiento, la cultura y las vidas de los ciudadanos, haciendo uso de la tecnología para cumplir dichos objetivos; dos obras de la literatura que fueron adelantadas para su época, pero que cobran relevancia en este siglo XXI.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<a href="https://youtube.com/playlist?list=PLrqaJjs2QtSGJbxS24clQih81WjDEcNG9&si=KWW-SbSTtMKXbAsN">
+	      	<img src="imagenes/button.png" title="AUTORES">
+	      </a>
+        		<!--texto para la imagen-->
+        		<p>Da click aqui para conocer más sobre los libros 1984 y Un Mundo Feliz.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>PROYECCIONES AUDIOVISUALES</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>El séptimo arte como medio de expresión sirve como una manera de preservar el pensamiento y como un documento audiovisual que recoge una serie de hechos tanto históricos como ficticios, y que transforma hechos históricos en ficciones.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Películas como “Land of the Blind” nos retrata un historia sobre terrorismo, revolución y el poder del dinero con el objetivo de derrocar un gobierno autoritaria; por otro lado los documentales “The Money Masters” y “Zeitgest” nos muestran como grandes instituciones utilizan el dinero para controlar el mundo, mientras que otras instituciones han utilizado los mitos y la religión para manipular las sociedades.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<a href="https://youtube.com/playlist?list=PLrqaJjs2QtSHO_RZjQhxLK8X7pTdMrY5A&si=AWhNIOii67_52Vvz">
+	      	<img src="imagenes/button.png" title="AUTORES">
+	      </a>
+        		<!--texto para la imagen-->
+        		<p>Da click aqui para conocer más sobre las proyecciones audiovisuales.</p>
+    		</div>.
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/">
+	      	<img src="imagenes/facebook.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://twitter.com/">
+	      	<img src="imagenes/twitter.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/">
+	      	<img src="imagenes/instagram.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Visita nuestras redes sociales para conocer más sobre fechas y horarios</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
